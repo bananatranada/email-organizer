@@ -1,0 +1,7 @@
+.Sender {
+  cursor: pointer;
+}
+
+.Sender--active {
+  background-color: grey;
+}

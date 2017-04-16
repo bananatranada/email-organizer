@@ -1,5 +1,6 @@
 .App {
   /*text-align: center;*/
+  margin: 40px 200px;
 }
 
 .App-logo {
@@ -13,8 +14,16 @@
   color: #474747;
 }
 
+.App-header-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
 .App-header__title {
   font-weight: 200;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
 .App-intro {
