@@ -1,5 +1,11 @@
 # Email Organizer
 
+## Getting Started
+```
+npm install
+npm run start
+```
+
 ## Intro
 I apologize in advance as I have a tendency to have strong opinions on UX. I'm pretty easy going and tolerant for most things (feel free to poke fun at me), but UX is one of few things that can drive me insane.
 
@@ -24,6 +30,8 @@ Regardless, I thought it was a good exercise. If there's anything I may have mis
 * Move selected senders to a specific folder
 
 ## If I had more time (and getting paid ^^)
+* Test! - at the very least my reducers and action creators
+* A smooth curved blink for each row whose folder has been changed would be pretty cool
 * Pagination - I would probably go with pagination over infinite scroll because these aren't sorted in a particular order. Infinite scroll is mostly useful when there is greater weight on the first portion of a list (e.g., newsfeed).
 * Search using suggestions - The problem with the current approach is that it's not scalable. Slack has an infamous problem where it tries to match and list every single user in a channel. This can be furiously slow in popular rooms. With suggestions, we can specify a maximum number of matches.
 * Checkboxes for each row, and a master checkbox to check/uncheck everything.
